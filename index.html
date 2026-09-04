@@ -6,36 +6,66 @@
 <title>赵AI工作室</title>
 
 <style>
-body{
+*{
     margin:0;
-    background:#111;
-    color:white;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
     font-family:-apple-system,BlinkMacSystemFont,sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e3a8a,#2563eb);
+    color:white;
+}
+
+.hero{
+    height:100vh;
     display:flex;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
-    height:100vh;
     text-align:center;
+    padding:20px;
 }
 
 h1{
-    font-size:42px;
+    font-size:56px;
+    margin-bottom:20px;
 }
 
 p{
+    font-size:22px;
+    opacity:.9;
+    margin-bottom:40px;
+}
+
+button{
+    padding:16px 40px;
     font-size:20px;
-    color:#aaa;
+    border:none;
+    border-radius:50px;
+    background:#22c55e;
+    color:white;
+}
+
+button:hover{
+    background:#16a34a;
 }
 </style>
-
 </head>
 
 <body>
 
-<div>
+<section class="hero">
 <h1>🚀 赵AI工作室</h1>
-<p>第一版网站开发成功！</p>
-</div>
+
+<p>让每个人都能拥有自己的 AI 产品</p>
+
+<button onclick="alert('欢迎来到赵AI工作室！')">
+开始体验
+</button>
+
+</section>
 
 </body>
 </html>
